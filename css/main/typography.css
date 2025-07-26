@@ -1,0 +1,91 @@
+/* -----------------------------------
+   TYPOGRAPHIE GLOBALE
+------------------------------------ */
+
+/* Base sur 1rem = 16px */
+:root {
+  /* Échelle typographique */
+  --step--1: 0.875rem; /* 14px */
+  --step-0: 1rem;      /* 16px */
+  --step-1: 1.125rem;  /* 18px */
+  --step-2: 1.25rem;   /* 20px */
+  --step-3: 1.5rem;    /* 24px */
+  --step-4: 2rem;      /* 32px */
+  --step-5: 2.5rem;    /* 40px */
+  --step-6: 3rem;      /* 48px */
+
+  /* Typo fluide (clamp) */
+  --fluid-title: clamp(2rem, 5vw, 3rem);
+  --fluid-subtitle: clamp(1.25rem, 2vw, 1.75rem);
+  --fluid-body: clamp(1rem, 1.5vw, 1.25rem);
+
+  /* Hauteur de ligne recommandée */
+  --lh-title: 1.2;
+  --lh-body: 1.5;
+}
+
+/* -----------------------------------
+   CLASSES UTILITAIRES
+------------------------------------ */
+
+/* Corps de texte */
+.body-text {
+  font-size: var(--fluid-body);
+  line-height: var(--lh-body);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* Titres */
+.h1 {
+  font-size: var(--fluid-title);
+  line-height: var(--lh-title);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+.h2 {
+  font-size: var(--step-4);
+  line-height: var(--lh-title);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.h3 {
+  font-size: var(--step-3);
+  line-height: var(--lh-title);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+/* Labels */
+.label {
+  font-size: var(--step-0);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Boutons */
+.btn-text {
+  font-size: var(--step-0);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+}
+
+/* Petits textes (ex: footer, mentions, etc.) */
+.text-small {
+  font-size: var(--step--1);
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Texte accentué */
+.text-italic {
+  font-style: italic;
+}
+
+.text-light {
+  font-weight: 300;
+}

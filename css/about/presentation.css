@@ -1,0 +1,55 @@
+.cta {
+    margin-top: 3rem;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem 2rem 0;
+}
+
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+
+    text-align: center;
+    align-items: center;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    border-bottom: 1px solid var(--secondary-color);
+    border-right: 1px solid var(--secondary-color);
+}
+
+.container-link-port {
+    display: inline-block;
+
+    margin-top: 2rem;
+
+    border-radius: 5rem;
+}
+
+.presentation-title {
+    padding: 1.5rem 0;
+
+    color: var(--secondary-color);
+}
+
+.container-resume {
+    text-align: start;
+}
+
+.container-list {
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.container-list li {
+    margin-bottom: 1rem;
+}

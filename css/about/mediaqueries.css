@@ -1,0 +1,97 @@
+@media (min-width:1200px) {
+
+    h2 {
+        margin: 0 0 2rem 0;
+    }
+
+    /* presentation */
+    .presentation {
+        padding: 4rem 25rem;
+    }
+
+    .presentation-container {
+        max-width: 1450px;
+        margin: 0 auto;
+        padding: 0 3rem;
+
+    }
+
+    .presentation-title {
+        padding: 2rem 0;
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: .5rem;
+    }
+
+    .container-title {
+        font-size: 1.75rem;
+        margin: 3rem 0;
+    }
+
+    .container-list {
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+
+    .container-list ul {
+        font-size: 1.25rem;
+        margin-bottom: 3rem;
+        padding-left: 2rem;
+    }
+
+    .container-list li {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    /* tarif */
+    .tarif {
+        padding: 4rem 1rem;
+    }
+
+    .tarif-container {
+        display: table;
+
+        width: 100%;
+        max-width: 1800px;
+
+        margin: 0 auto;
+        padding: 0;
+        gap: 0;
+
+        border-collapse: collapse;
+
+        text-align: center;
+    }
+    
+    .tarif-item {
+        display: table-row;
+    }
+
+    .tarif-label,
+    .tarif-data {
+        display: table-cell;
+        border: 1px solid var(--secondary-color);
+
+        padding: 0.75rem 1rem;
+        vertical-align: middle;
+    }
+
+    .tarif-data {
+        padding: 80px;
+    }
+
+    .tarif-label {
+        display: table-cell;
+        font-weight: 600;
+
+        padding: 20px;
+    }
+
+    .tarif-data::before {
+        display: none;
+    }
+}
